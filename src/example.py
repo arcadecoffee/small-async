@@ -2,7 +2,7 @@ import asyncio
 import logging
 from functools import partial
 
-from async_worker import AsyncWorkerService
+from small_async import AsyncWorkerService
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)

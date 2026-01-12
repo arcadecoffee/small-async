@@ -11,8 +11,8 @@ A lightweight, zero-dependency Python library for orchestrating concurrent, resi
 
 ## Installation
 
-This module is designed to be lightweight. You can copy `async_worker.py` into your project or install it (if published).
+This module is designed to be lightweight. You can copy `small_async.py` into your project or install it (if published).
 
 ```bash
-uv add ./path/to/async_worker
+uv add ./path/to/small_async
 ```
