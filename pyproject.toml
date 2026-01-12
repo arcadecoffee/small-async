@@ -19,4 +19,4 @@ dev = [
 ]
 
 [project.scripts]
-worker-example = "async_worker.example:main"
+example = "example:main"
