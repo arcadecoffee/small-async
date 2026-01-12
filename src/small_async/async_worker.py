@@ -24,8 +24,6 @@ class AsyncWorker(Protocol):
 @dataclass
 class AsyncWorkerService:
     """
-    Protocol defining the requirements for a worker instance.
-    Implementations must provide an asynchronous 'run' method.
     Service to manage multiple asynchronous workers with graceful shutdown and error handling.
 
     Attributes:
